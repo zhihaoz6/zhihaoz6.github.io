@@ -1,8 +1,8 @@
 # Site settings
-title: Zhihao's Blog # 你的博客名字，可以定义修订
+title: Zhang's  # 你的博客名字，可以定义修订
 header-img: "img/green.jpg"
 tagline: "cn"  
-description: "zhihao's blog"  # 一句话描述你的博客
+description: "记录学习和生活"  # 一句话描述你的博客
 baseurl: ""
 url: "https://zhihaoz6.github.io"  # 此处填写你的博客地址 
 
@@ -13,15 +13,15 @@ owner:
   bio: "zhihao's blog" # 填写作者信息：博客描述
 
 # Data
-gavatar: img/ # 浏览器地址栏小图标，可自定义更改
-favicon: img/ # 浏览器地址栏小图标，可自定义更改
+gavatar: img/tiger.jpg # 浏览器地址栏小图标，可自定义更改
+favicon: img/tiger.jpg # 浏览器地址栏小图标，可自定义更改
 
-douban_username:  # 你的豆瓣id
-twitter_username: 
-github_username: 
-facebook_username: 
-weibo_username: 
-zhihu_username: 
+# douban_username:  # 你的豆瓣id
+# twitter_username: 
+# github_username: 
+# facebook_username: 
+# weibo_username: 
+# zhihu_username: 
 
 # Build settings  
 # use Github Flavored Markdown !important  
@@ -39,7 +39,7 @@ timezone: Asia/Shanghai
 defaults:
   -
     scope: 
-      path: ""
+      path: "_posts/2015-03-02-how-to-write.md"
       type: "posts"
     values:
       layout: "post"
